@@ -121,6 +121,7 @@ body {
     width: 150px;
     text-align: center;
     align-items: center;
+    gap: 5px;
 }
 
 .content-image {
