@@ -1,6 +1,7 @@
 body {
     font-family: roboto, sans-serif;
     min-height: 100vh;
+    margin: 0;
 }
 
 .main-container {
@@ -130,4 +131,31 @@ body {
     height: 150px;;
     width: 150px;
     border: 5px solid #A47551;
+}
+
+.body-quote {
+    padding: 50px;
+    height: 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 50%;
+}
+
+.quote-name {
+    width: 50%;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 800;
+    align-self: flex-end;
 }
