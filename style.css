@@ -12,8 +12,6 @@ body {
     background-color: #A47551;
     color: white;
     padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
     display: flex;
     flex-flow: row wrap;
     align-self: stretch;
@@ -24,7 +22,7 @@ body {
     height: auto;
     font-size: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -34,6 +32,7 @@ body {
     color: #E5E7EB;
     display: flex;
     flex-flow: row wrap;
+    justify-self: flex-end;
     margin: 0;
     padding: 0;
     gap: 20px;
@@ -83,7 +82,7 @@ body {
 
 .hero-img {
     height: auto;
-    width: 400px;
+    width: 500px;
 }
 
 .body-container {
