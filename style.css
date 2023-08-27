@@ -9,7 +9,7 @@ body {
 }
 
 .header-container {
-    background-color: #1F2937;
+    background-color: #A47551;
     color: white;
     padding: 20px;
     padding-left: 100px;
@@ -45,7 +45,7 @@ body {
 }
 
 .hero-container {
-    background-color: #1F2937;
+    background-color: #A47551;
     color: white;
     padding: 100px;
     display: flex;
@@ -75,7 +75,7 @@ body {
     margin-top: 10px;
     align-self: flex-start;
     color: white;
-    background-color: #3882F8;
+    background-color: #523A28;
     padding: 5px 20px;
     border: 0;
     border-radius: 7px;
@@ -84,4 +84,46 @@ body {
 .hero-img {
     height: auto;
     width: 400px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    flex-grow: 1;
+    gap: 50px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.content-image {
+    height: 150px;;
+    width: 150px;
+    border: 5px solid #A47551;
 }
