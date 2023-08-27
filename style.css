@@ -40,3 +40,45 @@ body {
     color: #E5E7EB;
     text-decoration: none;
 }
+
+.hero-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    margin-top: 10px;
+    align-self: flex-start;
+    color: white;
+    background-color: #3882F8;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 7px;
+}
+
+.hero-img {
+    height: auto;
+    width: 400px;
+}
