@@ -159,3 +159,14 @@ body {
     font-weight: 800;
     align-self: flex-end;
 }
+
+.footer-container {
+    padding: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A47551;
+    color: #E5E7EB;
+    font-weight: 300;
+}
