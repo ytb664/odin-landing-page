@@ -1,3 +1,42 @@
 body {
     font-family: roboto, sans-serif;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: auto;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
