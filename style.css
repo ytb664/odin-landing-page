@@ -83,6 +83,7 @@ body {
 }
 
 .button {
+    font-family: pixelify, sans-serif;
     margin-top: 10px;
     align-self: flex-start;
     color: white;
