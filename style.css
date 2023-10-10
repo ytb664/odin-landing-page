@@ -2,6 +2,11 @@
     font-size: 62.5%;
 }
 
+@font-face {
+    font-family: pixelify;
+    src: url(fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf);
+}
+
 body {
     font-family: roboto, sans-serif;
     min-height: 100vh;
