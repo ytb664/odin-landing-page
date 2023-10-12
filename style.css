@@ -91,6 +91,7 @@ body {
     padding: 5px 20px;
     border: 0;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .hero-img {
