@@ -98,6 +98,7 @@ body {
     width: 500px;
     border-radius: 15px;
     border: 5px solid #523A28;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .body-container {
