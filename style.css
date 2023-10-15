@@ -55,6 +55,10 @@ body {
     text-decoration: none;
 }
 
+.header-links a:hover {
+    opacity: 0.8;
+}
+
 .hero-container {
     background-color: #A47551;
     color: white;
