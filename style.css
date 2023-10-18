@@ -1,5 +1,9 @@
 :root {
     font-size: 62.5%;
+
+    ::selection {
+        background-color: #523A28;
+    }
 }
 
 @font-face {
@@ -126,6 +130,14 @@ body {
     justify-content: center;
 }
 
+.body-info,
+.body-quote,
+.body-cta {
+    ::selection {
+        background-color: #A47551;
+    }
+}
+
 .body-info {
     padding: 50px;
     display: flex;
@@ -133,6 +145,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+    ::selection {
+        background-color: #A47551;
+    }
 }
 
 .info-header {
