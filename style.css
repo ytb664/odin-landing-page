@@ -56,13 +56,13 @@ body {
 
     > li {
         > a {
-        color: #E5E7EB;
-        text-decoration: none;
+            color: #E5E7EB;
+            text-decoration: none;
         }
-    }
 
-    > li:hover {
-        opacity: 0.8;
+        :hover {
+            opacity: 0.8;
+        }
     }
 }
 
