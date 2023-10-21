@@ -45,27 +45,27 @@ body {
     > .header-logo:hover {
         opacity: 80%;
     }
-}
 
-.header-links {
-    list-style: none;
-    font-size: 18px;
-    color: #E5E7EB;
-    display: flex;
-    flex-flow: row wrap;
-    justify-self: flex-end;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-
-    > li {
-        > a {
-            color: #E5E7EB;
-            text-decoration: none;
-        }
-
-        :hover {
-            opacity: 0.8;
+    > .header-links {
+        list-style: none;
+        font-size: 18px;
+        color: #E5E7EB;
+        display: flex;
+        flex-flow: row wrap;
+        justify-self: flex-end;
+        margin: 0;
+        padding: 0;
+        gap: 20px;
+    
+        > li {
+            > a {
+                color: #E5E7EB;
+                text-decoration: none;
+            }
+    
+            :hover {
+                opacity: 0.8;
+            }
         }
     }
 }
