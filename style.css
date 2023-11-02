@@ -120,7 +120,7 @@ body {
 
 .hero-img {
     height: auto;
-    width: 500px;
+    width: min(50rem, 80VW);
     border-radius: 15px;
     border: 5px solid #523A28;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
